@@ -1,0 +1,30 @@
+.box {
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    position: absolute;
+    left: 507px;
+    top: 1949px;
+    width: 162px;
+    height: 58px;
+    z-index: 3;
+  }
+  .Load_more {
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+    position: absolute;
+    left: 540.87px;
+    top: 1967.5px;
+    z-index: 4;
+  }
+  .load_more_button {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1200px;
+    height: 2079px;
+    z-index: 5;
+  }
+ 
