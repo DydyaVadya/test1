@@ -35,8 +35,8 @@ body {
 }
 li {
 display: inline-block;
-margin: auto;
-padding: 20px 20px 20px 90px;
+
+/* padding: 20px 20px 20px 90px; */
 }
 
 li:last-of-type {
@@ -46,14 +46,28 @@ li:last-of-type {
 li :hover {
   color: blue;
 }
+.li_menu_1 {
+  margin-left: 165px;
+}
+
+.li_menu_2 {
+  margin-left: 121px;
+}
+.li_menu_3 {
+  margin-left: 102px;
+}
+.li_menu_4 {
+  margin-left: 95px;
+}
+  
 
 header {
   margin-bottom: 5px;
   margin-top: 75px;
 }
 .menu {
-  margin: 77px auto;
-  width: 880px;
+  margin: 77px auto 0px;
+  padding-left: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
   text-transform: uppercase;
@@ -61,12 +75,13 @@ header {
 
 .main {
   width: 960px;
-  margin: 102px auto;
+  margin: 102px auto 0px;
 }
 article {
   width: 420px;
   float: left;
   padding: 0px 30px 0px 30px;
+  margin: 0px auto 140px;
 }
 ul {
   list-style: none; /*убираем маркеры списка*/
@@ -81,7 +96,7 @@ a {
   width: 160px;
   height: 60px;
   border: 1px solid #626262;
-  margin: 58px auto 70px;
+  margin: 0px auto 70px;
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-style: 14px;
